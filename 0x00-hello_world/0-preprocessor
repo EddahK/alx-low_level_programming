@@ -1,0 +1,2 @@
+#!/bin/bash                                                                                   
+betty -E$CFILE -o 0-preprocessor.c
