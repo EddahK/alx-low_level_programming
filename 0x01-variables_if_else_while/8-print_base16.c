@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main -Entry point
- * Description: prints all single digit numbers of
- * base 10 from 0
+ * Description: prints all numbers of base 16 in lowercase
+ * followed by a new line.
  * Return: Always 0 (success)
  */
 int main(void)
