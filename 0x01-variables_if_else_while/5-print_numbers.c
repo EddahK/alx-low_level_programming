@@ -8,8 +8,6 @@ int main(void)
   
   int a;
   
-  for (a=0; a<10; a++)
-  {
-    printf("a is: %d\n", a);
-  }
+  for (a=0; a<110; a++)
+    printf("%d\n", a);
 }
