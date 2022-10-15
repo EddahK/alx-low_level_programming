@@ -1,7 +1,8 @@
-include <stdio.h>
+#include <stdio.h>
 #include <unistd.h>
 /**
- * main - prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+ * main - Entry point
+ * Description: prints alphabet in lowercase then uppercase
  * Return: Always 0 (success)
  */
 int main(void)
@@ -12,7 +13,7 @@ int main(void)
 	{
 		putchar(ch);
 	}
-  	for (ch = 'A'; ch <= 'Z'; ch++)
+	for (ch = 'A'; ch <= 'Z'; ch++)
 	{
 		putchar(ch);
 	}
