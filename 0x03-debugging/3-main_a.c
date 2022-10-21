@@ -9,19 +9,8 @@
 
 int main(void)
 {
-    int month;
-    int day;
-    int year;
-
-    month = 4;
-    day = 01;
-    year = 1997;
-
-    printf("Date: %02d/%02d/%04d\n", month, day, year);
-
-    day = convert_day(month, day);
-
-    print_remaining_days(month, day, year);
+    int day = convert_day(04,01)
+       print_remaining_days(4, day, 1997);
 
     return (0);
 }
