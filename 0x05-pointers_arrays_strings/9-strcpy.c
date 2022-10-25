@@ -18,5 +18,5 @@ int len = 0;
 
 	*(dest + len) = '\0';
 
-return(dest);
+return (dest);
 }
