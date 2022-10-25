@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* Reset_to_98 - resets int n
+* reset_to_98 - resets int n
 * @*n - int declared
 */
 void reset_to_98(int *n)
