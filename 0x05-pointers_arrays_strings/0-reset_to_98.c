@@ -2,12 +2,10 @@
 #include <stdio.h>
 
 /**
-* main - check the code 
-*
-* Return: Always 0.
+* Reset_to_98 - resets int n
+* @*n - int declared
 */
 void reset_to_98(int *n)
 {
- int *n = &n;
- *p = 98;
+*n = 98;
 }
