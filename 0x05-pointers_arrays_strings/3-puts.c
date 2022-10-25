@@ -7,7 +7,7 @@
  */
 void _puts(char *str)
 {
-str = "*str++";
-putchar(str);
+
+putchar(*str++);
 putchar('\n');
 }
