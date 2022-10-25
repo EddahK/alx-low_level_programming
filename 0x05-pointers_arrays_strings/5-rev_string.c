@@ -6,12 +6,20 @@
  */
 void rev_string(char *s)
 {
-int i = 0;
+int i = 0, j = 0;
+	char tmp[1002];
 
-putchar(*s++);
-while (s[i] != '\0')
+	while (s[i] != '\0')
+		i++;
+	for (; i > 0; i--)
+	{
+		tmp[j] = s[i - 1];
+		j++;
+	}
 
-i++;
-for (i = i - 1; i >= 0; i--)
-putchar(s[i]);
+	while (i < j)
+	{
+		s[i] = tmp[i];
+		i++;
+	}
 }
