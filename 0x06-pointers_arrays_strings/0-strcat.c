@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - function commute srtings
+ * _strcat - function to append strings
  * @dest: copy to
  * @src: copy from
  * Return: return value of dest
