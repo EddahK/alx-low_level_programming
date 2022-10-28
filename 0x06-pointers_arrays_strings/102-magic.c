@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* main - program prints a[2] = 98 */
 int main(void)
 {
 int n;
