@@ -3,11 +3,11 @@
 /**
  * main - function that prints an integer.
  * @n: integer to print
- * 
+ *
  */
 void print_number(int n)
 {
-  unsigned int num = n;
+unsigned int num = n;
 
 	if (n < 0)
 	{
