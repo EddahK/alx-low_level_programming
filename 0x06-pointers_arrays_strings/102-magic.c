@@ -1,6 +1,6 @@
 #include <stdio.h>
 /* main - program prints a[2] = 98 */
-int main(void)
+int main(int n, int a[], int *p)
 {
 int n;
 int a[5];
