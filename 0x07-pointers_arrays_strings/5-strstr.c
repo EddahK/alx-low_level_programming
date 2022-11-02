@@ -2,11 +2,11 @@
 
 /**
  * _strstr - locates a substring
- * @haystack: input
- * @needle: input
+ * @haystack: string to search
+ * @needle: substring to find
  * Return: 0
  */
-char *_strstr(char *haystck, char *neddle)
+char *_strstr(char *haystack, char *needle)
 {
 
 	for (; *haystack != '\0'; haystack++)
