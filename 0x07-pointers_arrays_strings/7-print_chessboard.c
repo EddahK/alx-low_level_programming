@@ -2,17 +2,16 @@
 
 /**
  * print_chessboard - prints the chessboard
- * @a: pointer to the first row index
+ * @a: pointer to the first row in the matrix
  */
 void print_chessboard(char (*a)[8])
 {
 int i, j;
-
-for (i = 0; a[i][7]; i++)
+for (i = 1; i <= 8; i++)
 {
-	for (j = 0; j < 8; j++)
-		_putchar(a[i][j]);
-		a++;
-		_putchar('\n');
+for (j = 0; j < 8; j++)
+_putchar(a[0][j]);
+a++;
+_putchar('\n');
 }
 }
