@@ -4,14 +4,16 @@
 /**
  * main - prints the number of arguments passed into it.
  * @argc: Number of command line arguments
- * @ argv: Array if arguments
- * REturn: 0
+ * @argv: Array if arguments
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
 	int i;
+	
 	if (argc == 1)
-		printf("%d\n", argc - 1);
+
+	printf("%d\n", argc - 1);
 	else
 	{
 		for (i = 0; *argv; i++, argv++)
