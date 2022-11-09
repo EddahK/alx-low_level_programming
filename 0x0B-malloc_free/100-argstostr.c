@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
-  * argstostr - concatenates all the arguments of your program 
+  * argstostr - concatenates all the arguments of your program
   * @ac: takes in width of grid
   * @av: height of grid
   * Return: a pointer to a new string, or NULL if it fails
   */
 char *argstostr(int ac, char **av)
 {
- char *str;
+	char *str;
 	int count = 0, a = 0, b = 0, c = 0;
 
 	if (ac == 0 || av == NULL)
