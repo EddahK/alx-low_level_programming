@@ -1,12 +1,12 @@
 #include "main.h"
 
-**
- * main - copy a file.
- * @argc: the number of args
- * @argv: the Args.
- * Description: copy a file
+/**
+  * main - copy a file.
+  * @argc: the number of args
+  * @argv: the Args.
+  * Description: copy a file
   * Return: 0 in success.
- */
+  */
 int main(int argc, char *argv[])
 {
 	int src_fd, dest_fd;
